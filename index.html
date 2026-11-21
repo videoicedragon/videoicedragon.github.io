@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#10110f">
-    <meta name="description" content="VideoCieDragon — developer, creative problem-solver, and builder of thoughtful digital experiences.">
-    <title>VideoCieDragon — Developer</title>
+    <meta name="description" content="VideoIceDragon — Python and Linux developer building reliable desktop applications and practical tools.">
+    <title>VideoIceDragon — Python &amp; Linux Developer</title>
     <style>
       :root {
         color-scheme: dark;
@@ -201,6 +201,15 @@
       .about-copy { max-width: 650px; color: #c5c7be; font-size: 1.12rem; line-height: 1.9; }
       .about-copy p { margin: 0 0 20px; }
       .about-copy strong { color: var(--text); font-weight: 550; }
+      .skill-list { display: flex; flex-wrap: wrap; gap: 9px; margin: 25px 0 0; padding: 0; list-style: none; }
+      .skill-list li {
+        padding: 8px 11px;
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        background: rgba(255, 255, 255, .025);
+        color: #d3d5cb;
+        font: .75rem var(--mono);
+      }
 
       .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; }
       .card {
@@ -282,9 +291,9 @@
   <body>
     <header class="site-header">
       <nav class="nav wrap" aria-label="Main navigation">
-        <a class="brand" href="#top" aria-label="VideoCieDragon, home">
+        <a class="brand" href="#top" aria-label="VideoIceDragon, home">
           <span class="brand-mark" aria-hidden="true">V</span>
-          <span>VideoCieDragon</span>
+          <span>VideoIceDragon</span>
         </a>
         <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">Menu</button>
         <div class="nav-links" id="nav-links">
@@ -298,9 +307,9 @@
     <main id="top">
       <section class="hero wrap" aria-labelledby="hero-title">
         <div class="hero-copy">
-          <div class="availability">Developer &amp; digital creator</div>
+          <div class="availability">Python &amp; Linux developer</div>
           <h1 id="hero-title">Ideas into<br><span>real things.</span></h1>
-          <p>I’m VideoIceDragon — a developer who loves making useful, thoughtful things for the web and beyond.</p>
+          <p>I’m VideoIceDragon — building efficient, reliable software and practical desktop experiences with Python, Qt, and Linux.</p>
           <div class="hero-actions">
             <a class="button" href="#focus">Explore what I do <span class="arrow" aria-hidden="true">↓</span></a>
             <a class="text-link" href="#about">A little about me <span aria-hidden="true">↗</span></a>
@@ -328,9 +337,16 @@
               <h2 id="about-title">Make it work.<br>Make it matter.</h2>
             </div>
             <div class="about-copy">
-              <p>I’m drawn to the moment an idea starts to take shape — the sketch, the first working version, the small details that make something feel <strong>just right.</strong></p>
-              <p>I like learning by building, solving problems with care, and making digital experiences that feel clear, considered, and a little bit unexpected.</p>
-              <div class="about-note">CURRENT MODE: curious, creating, always learning</div>
+              <p>A Python and Linux developer focused on building <strong>efficient, reliable, and maintainable software.</strong> Experienced in desktop applications with Qt and PySide6, and comfortable across Linux environments, Python tooling, and cross-platform development.</p>
+              <p>Interested in practical GUI solutions, open-source projects, and combining clean architecture with <strong>native-feeling interfaces.</strong></p>
+              <ul class="skill-list" aria-label="Languages and technologies">
+                <li>Python</li>
+                <li>Linux</li>
+                <li>Qt</li>
+                <li>PySide6</li>
+                <li>Bash</li>
+                <li>Git</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -343,23 +359,23 @@
               <div class="eyebrow">02 / Areas of focus</div>
               <h2 id="focus-title">Things I like to make.</h2>
             </div>
-            <p>A few kinds of challenges I enjoy taking from a rough idea to a finished experience.</p>
+            <p>From practical desktop interfaces to the tools and code that make them dependable.</p>
           </div>
           <div class="cards">
             <article class="card">
-              <div class="card-index">01 — WEB</div>
-              <h3>Web experiences</h3>
-              <p>Fast, accessible websites with a clear point of view and details that feel considered.</p>
+              <div class="card-index">01 — DESKTOP</div>
+              <h3>Desktop applications</h3>
+              <p>Practical Qt and PySide6 interfaces that feel at home on the desktop.</p>
             </article>
             <article class="card">
-              <div class="card-index">02 — TOOLS</div>
-              <h3>Useful little tools</h3>
-              <p>Practical apps and playful experiments that make a task easier — or more fun.</p>
+              <div class="card-index">02 — TOOLING</div>
+              <h3>Python &amp; Linux tools</h3>
+              <p>Useful scripts and applications designed to make everyday workflows smoother.</p>
             </article>
             <article class="card">
-              <div class="card-index">03 — IDEAS</div>
-              <h3>From concept to build</h3>
-              <p>Exploring a problem, finding the simple version, and bringing it to life one step at a time.</p>
+              <div class="card-index">03 — ENGINEERING</div>
+              <h3>Reliable, maintainable code</h3>
+              <p>Clean architecture and cross-platform thinking, with care for the details.</p>
             </article>
           </div>
         </div>
